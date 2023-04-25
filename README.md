@@ -9,6 +9,6 @@ It contains files that contain combined information from multiple challenges, as
 <br>
 <br>
 <br>
+<h1></h1>
 <h3>AUTHOR</h3>
-<br>
 <p>Viktoriya Furlow</p>
