@@ -1,5 +1,6 @@
 # SQL-Practice-Code
 SQL Server Code Practice and Challenges for The Tech Academy SQL Course
+<br>
 
 <h1>Purpose</h1>
 <br>
