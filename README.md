@@ -1,6 +1,8 @@
 # SQL-Practice-Code
 SQL Server Code Practice and Challenges for The Tech Academy SQL Course
 <br>
+<br>
+<br>
 
 <h1>Purpose</h1>
 <br>
@@ -11,5 +13,6 @@ It contains files that contain combined information from multiple challenges, as
 <br>
 <br>
 <h1></h1>
+
 <h3>AUTHOR</h3>
 <p>Viktoriya Furlow</p>
