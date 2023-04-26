@@ -249,12 +249,14 @@ VALUES
 	(10, 2, 4, '2023-04-25', '2023-05-25');
 
 
+
 --LIBRARY MANAGEMENT SYSTEM PROJECT PART ** TWO ** ASSIGNMENT
+
 --Let’s see how each of these tables relate to each other with a query:
 /* -------------------------------------------------------------------------------------------------------------------------------
 --using a FULL OUTER JOIN on three tables: BOOK_LOANS, BORROWER, AND BOOKS.
 	BOOK_LOANS has foreign keys for the primary keys of the BORROWER and BOOKS tables. 
---By using the FULL OUTER JOIN on those three tables, you are able to see which BookID belongs in which branch, 
+--By using the FULL OUTER JOIN on those three tables, one is able to see which BookID belongs in which branch, 
 	the card number of the borrower, the Publisher, the date the book was checked out and the date that it is due.
 --Each table has a reference to another table of some sort. Some tables will have more data than another depending 
 	on how many library branches there are, how many books each branch has, how many people have obtained library cards, etc. 
@@ -263,9 +265,10 @@ VALUES
 SELECT * FROM ((Book_Loans FULL OUTER JOIN Borrower ON Book_Loans.CardNo =
 Borrower.CardNo) FULL OUTER JOIN Books ON Book_Loans.BookID = Books.BookID)
 
---notice: I may have made an error with the PublisherName column as the query returns NULL for the every field in that column
+--notice: I may have made an error with the PublisherName column as the query returns NULL for every field in that column
 
 --Next I'll create some stored procedures so the library managers don't have to keep typing the same queries over and over.
+
 
 
 --LIBRARY MANAGEMENT SYSTEM PROJECT PART ** THREE ** ASSIGNMENT
@@ -335,3 +338,6 @@ BEGIN
     LEFT JOIN Book_Loans BL ON B.CardNo = BL.CardNo
     WHERE BL.CardNo IS NULL
 END
+
+
+
